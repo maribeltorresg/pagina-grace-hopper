@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    padding: 10px;
+}
+header h1 {
+    margin-bottom: 3px;
+    margin-top: 0;
+}
+header hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.biography {
+    display: inline-block;
+    line-height: 1.6;
+    font-size: 14px;
+    vertical-align: top;
+    width: 75%;
+}
+.summary {
+    display: inline-block;
+    margin-top: 15px;
+    width: 20%;
+}
+.summary-table {
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    padding: 2px;
+}
+.summary-table thead th {
+    background-color: #B0C4DE;
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.summary-table tbody tr:first-child {
+    text-align: center;
+}
+.summary-table tbody th {
+    text-align: left;
+}
+.image-hopper {
+    display: block;
+    width: 200px;
+    height: 265px;
+    margin: auto;
+}
